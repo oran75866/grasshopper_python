@@ -1,6 +1,8 @@
-# Grasshopper Python Scripts
+# Grasshopper GhPython 工具集
 
 GHPython scripts for Grasshopper / Rhino 8 (Python 3.9 RhinoCode Runtime).
+
+本 repo 收錄用於 Grasshopper 開發的 GhPython 工具腳本，依功能分類整理，可直接貼入 Python 3 Script 元件使用。
 
 ## Environment
 
@@ -8,6 +10,17 @@ GHPython scripts for Grasshopper / Rhino 8 (Python 3.9 RhinoCode Runtime).
 - Grasshopper (built-in)
 - Python 3.9 — RhinoCode Runtime
 - RhinoCommon API 8.6
+
+---
+
+## 資料夾結構
+
+| 資料夾 | 說明 |
+|--------|------|
+| `data_tree/` | DataTree 操作工具（分支、路徑、重組等）|
+| `geometry/` | 幾何運算工具（曲線、曲面、點雲等）|
+| `list_tools/` | List 資料處理工具（排序、篩選、分群等）|
+| `io/` | 資料輸入輸出工具（CSV、JSON、文字等）|
 
 ---
 
